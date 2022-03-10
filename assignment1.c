@@ -22,7 +22,7 @@ int main()
 
 	printf("Before Sorting\n");
 	for(i=0;i<SIZE;i++)
-		printg("%d",list[i]);
+		printf("%d",list[i]);
 	printf("\n");
 
 	selectionSort(list,SIZE);
